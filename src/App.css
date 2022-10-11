@@ -14,14 +14,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: burlywood;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.MuiInputBase-root{
+  background-color: white;
+}
+.css-e53awj-MuiStack-root{
+  margin-bottom: 15%;
+}
+h1{
+  
+  color: dimgrey;
+  font-weight: 500;
 }
